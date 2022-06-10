@@ -1,0 +1,18 @@
+[devshell]
+name = "say-hello-to-ocaml"
+packages = [
+  "alejandra",
+  "dprint",
+  "ocaml",
+  "ocamlformat",
+  "ocamlPackages.alcotest",
+  "ocamlPackages.batteries",
+  "ocamlPackages.findlib",
+  "ocamlPackages.ocaml-lsp",
+  "ocamlPackages.ocamlformat-rpc-lib",
+  "ocamlPackages.utop",
+]
+
+[[commands]]
+package = "treefmt"
+category = "formatter"
