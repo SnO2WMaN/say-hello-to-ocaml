@@ -8,6 +8,7 @@
         "jsonc",
         "md",
         "nix",
+        "ocaml",
         "toml"
       ]
     }
@@ -26,5 +27,11 @@
   },
   "[md]": {
     "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[ocaml]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "ocaml.sandbox": {
+    "kind": "global"
   }
 }

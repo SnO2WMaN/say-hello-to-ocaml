@@ -2,6 +2,7 @@
 name = "say-hello-to-ocaml"
 packages = [
   "alejandra",
+  "dune_3",
   "dprint",
   "ocaml",
   "ocamlformat",

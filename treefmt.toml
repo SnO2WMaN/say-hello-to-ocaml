@@ -6,3 +6,8 @@ includes = ["*.nix"]
 command = "dprint"
 options = ["fmt"]
 includes = ["*.json", "*.toml", "*.md"]
+
+[formatter.ocamlformat]
+command = "ocamlformat"
+options = ["--inplace"]
+includes = ["*.ml"]
